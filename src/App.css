@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+img{
+  height:100px;
+}
+img:hover{
+  height:100px;
+}
+.cart{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart-items {
+
+  border-radius: 5px;
+ width: 25%;
+ height:250px;
+display: inline;
+margin-top: 2%;
+/* margin-bottom: 2%; */
+margin-left: 4%;
+margin-right: 4%;
+/* background-color:burlywood; */
+box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+color:black;
+font-size: 0.9em;
+border-radius: 4px 4px 0 0;
+}
+/* .add{
+  background-color: cadetblue;
+  color: black;
+}
+.remove{
+  background-color: red;
+  color: black;
+} */
