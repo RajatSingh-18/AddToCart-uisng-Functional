@@ -9,9 +9,7 @@ export type CartItemType = {
   title: string;
   quantity:number
 };
-interface objects<Type>{
-  contents: Type;
-}
+
 function AddToCart() {
   const [products, setProducts] = useState([]as CartItemType[]);
   const [cart, setCart] = useState([]as CartItemType[]);
