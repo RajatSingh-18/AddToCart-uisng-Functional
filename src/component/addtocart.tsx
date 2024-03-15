@@ -72,7 +72,7 @@ function AddToCart() {
         {products.map((product:CartItemType, index) => (
           <div key={product.id} className="cart-items">
             <h4>{product.title}</h4>
-            <div><img src={product.image} /></div>
+            <div><img alt={product.title} src={product.image} /></div>
             <p>{product.price + "Rs"}</p>
             <button className="add" key={index} onClick={() => addToCart(product)}>Add To cart</button>
           </div>
