@@ -1,5 +1,4 @@
 import React from "react";
-import {CartItemType } from './addtocart'
   type dataprops={
   car:Array<Record<string, string | number>>,
   sum:Number,
