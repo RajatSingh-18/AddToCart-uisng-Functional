@@ -7,9 +7,6 @@ import {CartItemType } from './addtocart'
   decrease:(key:number)=>void
   increase:(key:number)=>void
 }
-interface objects{
-    [type:string]:string|boolean|number|React.ReactNode
-}
 function Cart(props:dataprops){
 return(
     <>
